@@ -18,7 +18,9 @@ import com.example.Model.SupportMessage.ContactResponse;
 import com.example.Model.response.ApiResponse;
 import com.example.Service.ContectUs.ContectUsService;
 import com.example.repo.ContectUs.ContectUsrepo;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RestController
 @RequestMapping("/api/contectUs/")
  public class ContectUs{
