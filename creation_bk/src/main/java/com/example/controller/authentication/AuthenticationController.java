@@ -27,7 +27,7 @@ import com.example.Service.ForgotPassword.ForgotPasswordService;
 import com.example.Service.auth.AuthService;
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 @RestController
-@RequestMapping("/user/auth")
+@RequestMapping("/user/auth/")
 public class AuthenticationController {   // fixed spelling
 
     private final AuthService authService;
